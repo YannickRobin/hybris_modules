@@ -1,5 +1,5 @@
 function getMessage(message) {
-  return message + ' World2!';
+  return message + ' World!';
 }
 
 exports.getMessage = getMessage;
