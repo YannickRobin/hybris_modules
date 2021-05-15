@@ -9,7 +9,7 @@ dynamics.javascript_modules.uri=https://github.com/YannickRobin/hybris_modules.g
 
 - Run the following script in HAC to install modules
 ```javascript
-
+gitService.pullRepo();
 ```
 
 ## How to execute
@@ -17,5 +17,5 @@ dynamics.javascript_modules.uri=https://github.com/YannickRobin/hybris_modules.g
 - Run the following script in HAC to execute
 ```javascript
 user = require('./test/user.js');
-user.hello("Yannick")
+user.hello("Yannick");
 ```
