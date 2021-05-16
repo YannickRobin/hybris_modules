@@ -11,11 +11,3 @@ dynamics.javascript_modules.uri=https://github.com/YannickRobin/hybris_modules.g
 ```javascript
 gitService.pullRepo();
 ```
-
-## How to execute
-
-- Run the following script in HAC to execute
-```javascript
-user = require('./test/user.js');
-user.hello("Yannick");
-```
