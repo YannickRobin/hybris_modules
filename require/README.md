@@ -1,7 +1,7 @@
-# Hello World demo
+# Require demo
 
 ## Overview
-This demo shows how to use require inside a module.
+This demo shows how to import a library inside another library.
 
 ## How to execute
 
