@@ -42,7 +42,7 @@ function getRateEUR2USD()
     var String = Java.type("java.lang.String");
 
     restTemplate = new RestTemplate();
-    response = restTemplate.getForEntity("https://free.currconv.com/api/v7/convert?apiKey=do-not-use-this-key&q=EUR_USD&compact=y", String.class);
+    response = restTemplate.getForEntity("https://free.currconv.com/api/v7/convert?apiKey=ff3585281f3b69cfe486&q=EUR_USD&compact=y", String.class);
     print(response.getBody());
     body = JSON.parse(response.getBody());
     rate = body.EUR_USD.val;

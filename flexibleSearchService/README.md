@@ -1,10 +1,13 @@
-# hybris_modules
+# FlexibleSearchService example
+
+## Overview
+The goal of this example is to show you can call a hybris Spring bean inside a Javascript module.
 
 ## How to execute
 
-- Run the following script in HAC to execute
+- Execute the following script in HAC (script type: javascript):
 ```javascript
-flexibleSearchService = require('./flexibleSearchService/getProductTotalCount.js');
+flexibleSearchService = require('./flexibleSearchService/getProductTotalCount');
 flexibleSearchService.getProductTotalCount(spring);
 ```
 
