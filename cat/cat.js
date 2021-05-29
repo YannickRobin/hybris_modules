@@ -1,8 +1,13 @@
-class Cat {
-  makeSound() {
-    return `${this.constructor.name}: Meowww`;
-  }
+function Cat(firstname, lastname) {
+    this.firstname = firstname;
+    this.lastname = lastname;  
 }
 
-//module.exports = Cat;
-exports.Cat = Cat;
+Cat.prototype.fullName = function () {
+    return this.firstname + " " + this.lastname;
+};
+ 
+// now we export the class, so other modules can create Cat objects
+module.exports = {
+    Cat: Cat
+}
