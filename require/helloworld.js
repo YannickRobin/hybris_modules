@@ -1,4 +1,4 @@
-function helloYou(name) {
+function helloYou() {
     return "Hello you!";
 };
 

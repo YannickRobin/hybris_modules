@@ -13,7 +13,7 @@ dynamics.NetPriceService.getPriceInformationsForProduct=model://dynamics.NetPric
 ```
 - Add the following script *dynamics.NetPriceService.getPriceInformationsForProduct* with JAVASCRIPT as Script engine type:
 ```javascript
-demoPrice = require('./demo_price/main.js');
+demoPrice = require('./demo_price/main');
 demoPrice.execute(pjp, sessionService, i18NService);
 
 ## How to test
@@ -25,7 +25,3 @@ catVersion = catalogVersionService.getCatalogVersion("Default", "Staged")
 product = productService.getProductForCode(catVersion, "Test")
 netPriceService.getPriceInformationsForProduct(product);
 ```
-
-## Know issues
-
-- When you modify the JS files, you need to update the timestamp of the script object so it is reloaded.
