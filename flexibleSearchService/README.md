@@ -1,7 +1,7 @@
 # FlexibleSearchService example
 
 ## Overview
-The goal of this example is to show you can call a hybris Spring bean inside a Javascript module.
+This demo shows how to call a hybris Spring bean inside a Javascript module.
 
 ## How to execute
 

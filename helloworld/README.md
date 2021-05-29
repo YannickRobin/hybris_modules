@@ -1,7 +1,7 @@
 # Hello World
 
 ## Overview
-This demo show how to export a JS module and execute a function. 
+This demo shows how to export a JS module and execute a function.
 
 ## How to execute
 

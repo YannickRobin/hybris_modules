@@ -1,7 +1,8 @@
 # Demo Price
 
 ## Overview
-The goal of this demo is to show example of runtime Spring bean customization.
+
+This demo shows how to customize hybris Spring bean customization at runtime.
 We will change NetPriceService.getPriceInformationsForProduct to convert USD price into EUR price using an external currency converter service. 
 
 ## How to configure
@@ -25,4 +26,6 @@ product = productService.getProductForCode(catVersion, "Test")
 netPriceService.getPriceInformationsForProduct(product);
 ```
 
-GET /converter.asmx/GetCurrencyRate?Currency=string&RateDate=string
+## Know issues
+
+- When you modify the JS files, you need to update the timestamp of the script object so it is reloaded.
