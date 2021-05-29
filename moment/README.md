@@ -6,7 +6,7 @@ This demo shows how to use a NPM library (https://www.npmjs.com/package/moment) 
 ## How to install
 Run the following command line:
 ```
-npm install
+npm install moment
 ```
 
 ## How to execute
