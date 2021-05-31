@@ -3,7 +3,7 @@ function helloYou() {
 };
 
 function hello(name) {
-    return "Hello " + name;
+    return "Hello Mr " + name;
 };
 
 exports.helloYou = helloYou;
