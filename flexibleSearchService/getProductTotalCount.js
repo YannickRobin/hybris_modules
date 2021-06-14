@@ -8,7 +8,7 @@ function getProductTotalCount(spring) {
     query = "SELECT {pk} FROM {Product}";
     searchResult = flexibleSearchService.search(query);
     
-    print("Total number of products: " + searchResult.getTotalCount());
+    print("Total number of products - Dany: " + searchResult.getTotalCount());
     return searchResult.getTotalCount();
 };
 
